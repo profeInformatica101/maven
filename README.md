@@ -9,6 +9,10 @@ Ejecuta el siguiente comando en la terminal para generar un nuevo proyecto Maven
 ```sh
 mvn archetype:generate -DgroupId=com.ejemplo -DartifactId=mi-proyecto -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
+### Con dependencia JUNIT 5
+```sh
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DgroupId=es.iescamas.programacion -DartifactId=tablas-caracteres -Dversion=1.0.0-SNAPSHOT -DjavaCompilerVersion=17  -DjunitVersion=5.11.0  -DinteractiveMode=false
+```
 
 ## 2. Acceder al Directorio del Proyecto
 
